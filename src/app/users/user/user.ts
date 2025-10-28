@@ -7,8 +7,8 @@ import { type User } from './user.model';
   selector: 'app-user',
   standalone: true,
   imports: [RouterLink, RouterLinkActive],
-  templateUrl: './user.component.html',
-  styleUrl: './user.component.css',
+  templateUrl: './user.html',
+  styleUrl: './user.css',
 })
 export class UserComponent {
   user = input.required<User>();

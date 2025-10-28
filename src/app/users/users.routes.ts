@@ -3,8 +3,8 @@ import { Routes } from '@angular/router';
 import {
   NewTaskComponent,
   canLeaveEditPage,
-} from '../tasks/new-task/new-task.component';
-import { TasksComponent, resolveUserTasks } from '../tasks/tasks.component';
+} from '../tasks/new-task/new-task';
+import { TasksComponent, resolveUserTasks } from '../tasks/tasks';
 import { TasksService } from '../tasks/tasks.service';
 
 export const routes: Routes = [
